@@ -1,0 +1,10 @@
+apiversion: openchoreo.dev/v1
+
+apis:
+  default: 
+    type: REST
+    basePath: /reading-list
+    schemaFile: docs/openapi.yaml
+    visibility: 
+      public: true
+      organization: true
